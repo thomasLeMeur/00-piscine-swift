@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1510" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="d07" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="request" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zhg-aU-g8w">
+                                <rect key="frame" x="0.0" y="318" width="375" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Response" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TlP-FQ-miT">
+                                <rect key="frame" x="0.0" y="356" width="375" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T7X-zO-GXY">
+                                <rect key="frame" x="163" y="280" width="48" height="30"/>
+                                <state key="normal" title="Search"/>
+                                <connections>
+                                    <action selector="searchButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0hj-N7-eB3"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="zhg-aU-g8w" firstAttribute="top" secondItem="T7X-zO-GXY" secondAttribute="bottom" constant="8" symbolic="YES" id="7gb-Rh-11l"/>
+                            <constraint firstItem="T7X-zO-GXY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="81Y-Ya-WhN"/>
+                            <constraint firstItem="TlP-FQ-miT" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="A50-Th-jhg"/>
+                            <constraint firstItem="zhg-aU-g8w" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="DU5-DZ-9BO"/>
+                            <constraint firstItem="TlP-FQ-miT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Lya-bv-zIP"/>
+                            <constraint firstItem="zhg-aU-g8w" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bFR-oX-wT2"/>
+                            <constraint firstItem="zhg-aU-g8w" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="sE8-ML-058"/>
+                            <constraint firstItem="TlP-FQ-miT" firstAttribute="top" secondItem="zhg-aU-g8w" secondAttribute="bottom" constant="8" symbolic="YES" id="u2s-pC-e6N"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="requestText" destination="zhg-aU-g8w" id="wFe-sB-RQA"/>
+                        <outlet property="responseLabel" destination="TlP-FQ-miT" id="5sP-by-GIf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

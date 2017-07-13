@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Rush01/SecondViewController.swift"
+            timestampString = "519923999.359313"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "SecondViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Rush01/ViewController.swift"
+            timestampString = "519923644.418571"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "globalinit_33_DEE6564A232F4488273BEBCA872185DE_func1"
+                  moduleName = "Rush01"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///sgoinfre/goinfre/Perso/jscarpon/PiscineSwift/Rush01/Rush01/Rush01/ViewController.swift"
+                  timestampString = "519923644.558251"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Rush01.ViewController.nbr.unsafeMutableAddressor : Swift.Int"
+                  moduleName = "Rush01"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///sgoinfre/goinfre/Perso/jscarpon/PiscineSwift/Rush01/Rush01/Rush01/ViewController.swift"
+                  timestampString = "519923644.560481"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Rush01.ViewController.nbr.getter : Swift.Int"
+                  moduleName = "Rush01"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///sgoinfre/goinfre/Perso/jscarpon/PiscineSwift/Rush01/Rush01/Rush01/ViewController.swift"
+                  timestampString = "519923644.562701"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Rush01.ViewController.nbr.setter : Swift.Int"
+                  moduleName = "Rush01"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///sgoinfre/goinfre/Perso/jscarpon/PiscineSwift/Rush01/Rush01/Rush01/ViewController.swift"
+                  timestampString = "519923644.564866"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
